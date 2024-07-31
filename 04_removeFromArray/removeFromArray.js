@@ -5,6 +5,7 @@ const removeFromArray = function() {
         while (array.includes(arguments[i])) {
             array.splice(array.indexOf(arguments[i]), 1);
         }
+        console.log("here");
     }
     return array;
 }; 
